@@ -2,8 +2,26 @@
 
 ## Prompt
 
-In the given file `converter.py`, fill in the empty block. When the script is run, the program will   
+Write a script that, when run, will wait for the user's input. The program will support conversion from kilometers to miles, and kilograms to pounds. The program interpret's the user's input and determines what to print depending on the input unit. For example:
+
+```
+Input your value:
+>>> 1.0
+Input your unit:
+>>> kg
+2.20462 lb
+``` 
+
+Your script should use `lb`, `kg`, `km`, `mi` as the unit denominator. Once the output is given, the program ends. If the user gives something unexpected, the program should complain that it doesn't recognize the unit.
+
+```
+Input your value:
+>>> 48
+Input your unit:
+>>> zoop
+Unknown unit!
+```
 
 ## Intention
 
-This will be your first foray into Pythontown. Here we will just do some basic operations to get you comfortable with python and how to solve problems like this.
+This second assignment forces you to use conditionals and handle some variables.
