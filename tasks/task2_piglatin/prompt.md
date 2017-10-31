@@ -2,12 +2,29 @@
 
 ## Prompt
 
-Write a script that will listen for a user's input. The user will give some word. The program would then print the 'pig latin' form of that input.
+Write a script that will listen for a user's input. The user will give some word. The program would then print the 'pig latin' form of that input. The program doesn't need to provide any kind of prompt
 
 Pig latin is an operation on a string, whereby the last letter is moved to the front, and the end is appended with '-ay'. More formally, it is given as:
 
-*x<sub>1</sub>x<sub>2</sub>...x<sub>n-1</sub>x<sub>n</sub>* =>  *x<sub>n</sub>x<sub>1</sub>x<sub>2</sub>...x<sub>n-1</sub>*ay
+*x<sub>1</sub>x<sub>2</sub>...x<sub>n-1</sub>x<sub>n</sub>* =>  *x<sub>n</sub>x<sub>1</sub>x<sub>2</sub>...x<sub>n-1</sub>* ay
+
+eg:
+
+hello => ellohay
+
+The user's input might consist of several words. The transformation should be applied to each word in the input *separately*.
+
+Once the output is given, the program should ask again. This behaviour loops endlessly (tip: To kill a program in your command-line, use `CTRL + C` or `Command + C` on mac.
+
+Here's an example of a correct interaction
+
+```
+>>> hello there
+ellohay etheray
+>>> my you're a tall one
+ymay eyou'ray aay ltalay eonay
+```
 
 ## Intention
 
-This will be your first foray into Pythontown. Here we will just do some basic operations to get you comfortable with python and how to solve problems like this. This little script is intended just to show you the basic structure of such a script and how you can expect everything to work. Your contributions here are minimal.
+Here you will learn about loops, as well as splitting strings and performing some basic opertions on them.
