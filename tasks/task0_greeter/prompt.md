@@ -2,11 +2,11 @@
 
 ## Prompt
 
-Write a script that will wait for the user to input their name as a string. Once they have done so, the program will display a custom output to greet the user. For instance, here is an example of a corrext interaction. This is what the user would see on their screen. To make it clear what is INPUT (and not output), input lines are prefixed with `>>>`. This doesn't have to be the case for your program.
+Write a script that will wait for the user to input their name as a string. Once they have done so, the program will display a custom output to greet the user. For instance, here is an example of a corrext interaction. This is what the user would see on their screen. To make it clear what is INPUT (and not output), input lines are prefixed with `>>> `. This doesn't have to be the case for your program.
 
 ```
 Please give your name:
-$Bob
+>>> Bob
 Welcome to python, Bob!
 ```
 
