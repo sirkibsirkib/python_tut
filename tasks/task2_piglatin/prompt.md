@@ -14,7 +14,9 @@ hello => ellohay
 
 The user's input might consist of several words. The transformation should be applied to each word in the input *separately*.
 
-Once the output is given, the program should ask again. This behaviour loops endlessly (tip: To kill a program in your command-line, use `CTRL + C` or `Command + C` on mac.
+Once the output is given, the program should ask again. This behaviour loops endlessly
+
+(Use `CTRL + C` or `Command + C` to interrupt a program runnning in your terminal. This will kill it)
 
 Here's an example of a correct interaction
 
