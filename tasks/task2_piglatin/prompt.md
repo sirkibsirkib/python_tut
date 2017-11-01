@@ -7,6 +7,8 @@ Write a script that will listen for a user's input. The user will give some word
 Pig latin is an operation on a string, whereby the last letter is moved to the front, and the end is appended with '-ay'. More formally, it is given as:
 
 *x<sub>1</sub>x<sub>2</sub>...x<sub>n-1</sub>x<sub>n</sub>* =>  *x<sub>n</sub>x<sub>1</sub>x<sub>2</sub>...x<sub>n-1</sub>* ay
+<<<<<<< HEAD
+=======
 
 eg:
 
@@ -26,6 +28,7 @@ ellohay etheray
 >>> my you're a tall one
 ymay eyou'ray aay ltalay eonay
 ```
+>>>>>>> 4bd6bcc76c9b45922f1cf40de0407b48a525b06a
 
 ## Intention
 
